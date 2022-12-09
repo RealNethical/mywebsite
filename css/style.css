@@ -1,0 +1,61 @@
+:root {
+    --bg: #000;
+    --fg: #ffffff;
+    --textColour: #f5eee6;
+    --textColour2: #f4dbc7;;
+    --grey: #84817c;
+    background-color: #000
+   
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+body {
+    text-rendering: optimizeLegibility;
+    background-color: #000
+    font-family: 'Open Sans';
+    color: var(--fg);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue';
+}
+header{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.625rem 0 1.5rem 0;
+    opacity: 1;
+    font-size: 1rem;
+}
+header h1{
+    font-family: "Abril Fatface";
+}
+header h4{
+    font-family: 'Open Sans';
+}
+
+
+img {
+    padding: 1rem;
+    margin:0.1rem;
+    border-radius: 10%;
+
+}
+img {
+    max-width: 30%;
+    max-height: auto;
+}
+
+#img-gallery img {
+    filter: grayscale(69%);
+}
+
+a{
+    color: var(--textColour2);
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    background-color: #ff2e88;
+    color: #fff;
+}
